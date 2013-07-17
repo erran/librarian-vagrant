@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# vi: set ft=ruby :
+# -*- mode: ruby -*-
+
+lib = File.expand_path('../../lib', __FILE__)
+$:.unshift(lib) unless $:.include?(lib)
+
+require 'librarian/vagrant/cli'
+Librarian::Vagrant::CLI.bin!
