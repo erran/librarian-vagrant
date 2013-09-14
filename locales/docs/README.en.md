@@ -3,7 +3,7 @@ A bundler for vagrant plugins.
 
 ## Usage
 The recommended usage is to download this as a dependency through
-[fgrehm's vundler](https://github.com/fgrehm/vundler) tie in to Vagrant.
+[fgrehm's bindler](https://github.com/fgrehm/bindler) tie in to Vagrant.
 
 # TODO: Add manual usage instructions
 
