@@ -11,7 +11,7 @@ module Librarian
       end
 
       def adapter_version
-        Librarian::Vagrant::Version
+        Librarian::Vagrant::VERSION
       end
 
       # NOTE: This is the perfect place to use the Ruby 2.0.0 Symbol literal.
