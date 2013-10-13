@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+source 'https://rubygems.org'
+
+# plugin 'vagrant-cachier'
+
+# plugin 'vagrant-omnibus', '>= 1.1.0'
+
+# plugin 'vagrant-openstack',
+#   :git => 'https://github.com/cloudbau/vagrant-openstack-plugin.git',
+#   :ref => 'new-fog'

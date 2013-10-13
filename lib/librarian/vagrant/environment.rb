@@ -28,6 +28,10 @@ module Librarian
         path_suffix ||= File.join(ENV['HOME'], '.vagrant.d', 'gems')
         project_path.join(path_suffix)
       end
+
+      def specfile_name
+        "Pluginfile"
+      end
     end
   end
 end
