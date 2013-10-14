@@ -11,7 +11,7 @@ module Librarian
       end
 
       def adapter_version
-        Librarian::Vagrant::Version
+        Librarian::Vagrant::VERSION
       end
 
       # NOTE: This is the perfect place to use the Ruby 2.0.0 Symbol literal.
@@ -27,6 +27,10 @@ module Librarian
         # TODO: What should the default path be?
         path_suffix ||= File.join(ENV['HOME'], '.vagrant.d', 'gems')
         project_path.join(path_suffix)
+      end
+
+      def specfile_name
+        "Pluginfile"
       end
     end
   end
