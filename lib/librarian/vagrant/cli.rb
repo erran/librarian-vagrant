@@ -19,7 +19,6 @@ module Librarian
         copy_file environment.specfile_name
       end
 
-      # source_root Pathname.new(__FILE__).dirname.join("templates")
       desc 'install', 'Install any plugin dependencies for the current Vagrant project'
       def install
         raise NotImplementedError, "The install subcommand hasn't been implemented yet."
